@@ -5,6 +5,7 @@ import sys
 import ipaddress
 import requests
 
+
 ASCII_BYTE = rb" !\"#\$%&\'\(\)\*\+,-\./0123456789:;<=>\?@ABCDEFGHIJKLMNOPQRSTUVWXYZ\[\]\^_`abcdefghijklmnopqrstuvwxyz\{\|\}\\t"
 DOMAIN_NAME = r"[a-zA-Z0-9]+\.[a-z]{2,3}"
 IP_ADDR = rb"((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)"
